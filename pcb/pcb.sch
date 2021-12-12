@@ -2161,7 +2161,7 @@ U 1 1 61D861F9
 P 4950 6600
 F 0 "J2" H 4621 6696 50  0000 R CNN
 F 1 "AVR-ISP-6" H 4621 6605 50  0000 R CNN
-F 2 "random-keyboard-parts:Reset_Pretty" V 4700 6650 50  0001 C CNN
+F 2 "random-keyboard-parts:Reset_Pretty-Mask" V 4700 6650 50  0001 C CNN
 F 3 " ~" H 3675 6050 50  0001 C CNN
 	1    4950 6600
 	1    0    0    -1  
