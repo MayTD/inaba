@@ -1433,7 +1433,7 @@ U 1 1 621ACEA1
 P 7750 4350
 F 0 "MX45" H 7783 4573 60  0000 C CNN
 F 1 "MX-NoLED" H 7783 4499 20  0000 C CNN
-F 2 "MX_Alps_Hybrid:MX-2.25U-NoLED" H 7125 4325 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-2.75U-NoLED" H 7125 4325 60  0001 C CNN
 F 3 "" H 7125 4325 60  0001 C CNN
 	1    7750 4350
 	1    0    0    -1  
@@ -2137,7 +2137,7 @@ U 1 1 621997A8
 P 6850 4350
 F 0 "MX44" H 6883 4573 60  0000 C CNN
 F 1 "MX-NoLED" H 6883 4499 20  0000 C CNN
-F 2 "MX_Alps_Hybrid:MX-2.75U-NoLED" H 6225 4325 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-2.25U-NoLED" H 6225 4325 60  0001 C CNN
 F 3 "" H 6225 4325 60  0001 C CNN
 	1    6850 4350
 	1    0    0    -1  
@@ -2312,4 +2312,70 @@ Wire Wire Line
 	5650 1550 5650 1900
 Wire Wire Line
 	5200 1550 5200 1900
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 61D66065
+P 6100 5350
+F 0 "H1" H 6200 5396 50  0000 L CNN
+F 1 "MountingHole" H 6200 5305 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 6100 5350 50  0001 C CNN
+F 3 "~" H 6100 5350 50  0001 C CNN
+	1    6100 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 61D67684
+P 6100 5600
+F 0 "H2" H 6200 5646 50  0000 L CNN
+F 1 "MountingHole" H 6200 5555 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 6100 5600 50  0001 C CNN
+F 3 "~" H 6100 5600 50  0001 C CNN
+	1    6100 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 61D6788A
+P 6100 5850
+F 0 "H3" H 6200 5896 50  0000 L CNN
+F 1 "MountingHole" H 6200 5805 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 6100 5850 50  0001 C CNN
+F 3 "~" H 6100 5850 50  0001 C CNN
+	1    6100 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 61D67B2D
+P 6100 6100
+F 0 "H4" H 6200 6146 50  0000 L CNN
+F 1 "MountingHole" H 6200 6055 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 6100 6100 50  0001 C CNN
+F 3 "~" H 6100 6100 50  0001 C CNN
+	1    6100 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H5
+U 1 1 61D67CFA
+P 6100 6350
+F 0 "H5" H 6200 6396 50  0000 L CNN
+F 1 "MountingHole" H 6200 6305 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 6100 6350 50  0001 C CNN
+F 3 "~" H 6100 6350 50  0001 C CNN
+	1    6100 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H6
+U 1 1 61D67EAA
+P 6100 6600
+F 0 "H6" H 6200 6646 50  0000 L CNN
+F 1 "MountingHole" H 6200 6555 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 6100 6600 50  0001 C CNN
+F 3 "~" H 6100 6600 50  0001 C CNN
+	1    6100 6600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
