@@ -405,19 +405,6 @@ F 3 "~" H 1900 1800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1900 2300 2350 2300
-$Comp
-L power:+5V #PWR0104
-U 1 1 61B1215C
-P 1900 2300
-F 0 "#PWR0104" H 1900 2150 50  0001 C CNN
-F 1 "+5V" H 1915 2473 50  0000 C CNN
-F 2 "" H 1900 2300 50  0001 C CNN
-F 3 "" H 1900 2300 50  0001 C CNN
-	1    1900 2300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
 	1250 3800 1050 3800
 Connection ~ 1250 3800
 Wire Wire Line
@@ -583,17 +570,6 @@ Wire Wire Line
 Connection ~ 2850 4800
 Wire Wire Line
 	2850 4800 2400 4800
-$Comp
-L MCU_Microchip_ATmega:ATmega32U4-AU U1
-U 1 1 61ABAA51
-P 2950 3000
-F 0 "U1" H 2950 1111 50  0000 C CNN
-F 1 "ATmega32U4-AU" H 2950 1020 50  0000 C CNN
-F 2 "Package_QFP:TQFP-44_10x10mm_P0.8mm" H 2950 3000 50  0001 C CIN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 2950 3000 50  0001 C CNN
-	1    2950 3000
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3700 3600 3550 3600
 $Comp
@@ -2116,41 +2092,6 @@ Wire Wire Line
 	7900 4300 7900 3500
 Wire Wire Line
 	7250 3700 7250 3750
-Connection ~ 7000 3500
-Connection ~ 6350 4750
-Wire Wire Line
-	7700 4750 8600 4750
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX44
-U 1 1 621997A8
-P 6850 4350
-F 0 "MX44" H 6883 4573 60  0000 C CNN
-F 1 "MX-NoLED" H 6883 4499 20  0000 C CNN
-F 2 "MX_Alps_Hybrid:MX-2.25U-ReversedStabilizers-NoLED" H 6225 4325 60  0001 C CNN
-F 3 "" H 6225 4325 60  0001 C CNN
-	1    6850 4350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7000 4300 7000 3500
-Wire Wire Line
-	6800 4750 7700 4750
-Connection ~ 6800 4750
-Wire Wire Line
-	6350 4750 6800 4750
-Wire Wire Line
-	6800 4500 6800 4550
-$Comp
-L Device:D_Small D44
-U 1 1 621997AE
-P 6800 4650
-F 0 "D44" H 6850 4850 50  0000 R CNN
-F 1 "D_Small" H 7050 4750 50  0000 R CNN
-F 2 "Diode_SMD:D_SOD-123" V 6800 4650 50  0001 C CNN
-F 3 "~" V 6800 4650 50  0001 C CNN
-	1    6800 4650
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	9950 2350 10400 2350
 Connection ~ 9950 2350
@@ -2376,6 +2317,65 @@ F 1 "MX-NoLED" H 7783 4499 20  0000 C CNN
 F 2 "MX_Alps_Hybrid:MX-2.75U-ReversedStabilizers-NoLED" H 7125 4325 60  0001 C CNN
 F 3 "" H 7125 4325 60  0001 C CNN
 	1    7750 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L MCU_Microchip_ATmega:ATmega32U4-AU U1
+U 1 1 61ABAA51
+P 2950 3000
+F 0 "U1" H 2950 1111 50  0000 C CNN
+F 1 "ATmega32U4-AU" H 2950 1020 50  0000 C CNN
+F 2 "Package_QFP:TQFP-44_10x10mm_P0.8mm" H 2950 3000 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 2950 3000 50  0001 C CNN
+	1    2950 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0104
+U 1 1 61B1215C
+P 1900 2300
+F 0 "#PWR0104" H 1900 2150 50  0001 C CNN
+F 1 "+5V" H 1915 2473 50  0000 C CNN
+F 2 "" H 1900 2300 50  0001 C CNN
+F 3 "" H 1900 2300 50  0001 C CNN
+	1    1900 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 2300 2350 2300
+Connection ~ 6350 4750
+Connection ~ 7000 3500
+Wire Wire Line
+	7700 4750 8600 4750
+$Comp
+L Device:D_Small D44
+U 1 1 621997AE
+P 6800 4650
+F 0 "D44" H 6850 4850 50  0000 R CNN
+F 1 "D_Small" H 7050 4750 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 6800 4650 50  0001 C CNN
+F 3 "~" V 6800 4650 50  0001 C CNN
+	1    6800 4650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6800 4500 6800 4550
+Wire Wire Line
+	6350 4750 6800 4750
+Connection ~ 6800 4750
+Wire Wire Line
+	6800 4750 7700 4750
+Wire Wire Line
+	7000 4300 7000 3500
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX44
+U 1 1 621997A8
+P 6850 4350
+F 0 "MX44" H 6883 4573 60  0000 C CNN
+F 1 "MX-NoLED" H 6883 4499 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-2.25U-ReversedStabilizers-NoLED" H 6225 4325 60  0001 C CNN
+F 3 "" H 6225 4325 60  0001 C CNN
+	1    6850 4350
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
