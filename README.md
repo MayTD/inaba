@@ -4,7 +4,7 @@ An open source 40% keyboard with a rotary encoder. Loosely designed by retro TVs
 > [The Midnight Channel (マヨナカテレビ, Mayonaka Terebi), also known as the TV World and Mayonaka TV, is a recurring term in Persona 4. The stuff of urban legends, its existence is spread through the town of Inaba through rumors.](https://megamitensei.fandom.com/wiki/Midnight_Channel)
 
 ## Assembly
-Components needed for the board to be functional or completed.
+Components needed for the pcb to be functional or completed.
 | Part Number | Qty | Description | Component Reference |
 | - | - | - | - |
 | ATMEGA32U4-AU | 1 | IC MCU 8BIT 32KB FLASH 44TQFP | U1 |
@@ -22,3 +22,4 @@ Components needed for the board to be functional or completed.
 | CL21A106KOQNNNG | 1 | CAP CER 10UF 16V X5R 0805 | C5 |
 | CL21C220JB61PNC | 2 | CAP CER 22PF 50V C0G/NP0 0805 | C6-C7 |
 | B3U-1000P | 1  | SWITCH TACTILE SPST-NO 0.05A 12V | SW1 |
+| 0ZCJ0050AF2E | 1  | PTC RESET FUSE 24V 500MA 1206 | F1 |
